@@ -1,0 +1,23 @@
+# Google Cloud Functions v2 にインストールする場合以下の設定が必要
+NAME=xxxxxxxxx
+REGION=us-central1
+PROJECT=xxxxxxxxx
+SCHEDULER_SERVICE_ACCOUNT=xxxxxxxxxxxxxxx@${PROJECT}.iam.gserviceaccount.com
+
+# 設定
+QUOTE=USDC
+ 
+COMMENT="COMMET for Google Cloud Functions v2 deployment"
+BASE=ZEC
+SPLIT_ORDERS=400
+LEVERAGE=1.5
+FREQ=1m
+QUANTILE=0.9
+WINDOW_HOURS=0.333
+DIP=0.95
+TAKE_PROFIT=1.025
+SELL_ORDER_SPREAD=0.001
+BUY_ORDER_SPREAD=0.002
+POSITION_TIMEOUT_HOURS=4
+BUY_PARTIAL_FILLS_TIMEOUT_HOURS=0.1
+
